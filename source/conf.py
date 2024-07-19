@@ -26,3 +26,9 @@ exclude_patterns = []
 
 html_theme = 'furo'
 html_static_path = ['_static']
+
+extensions = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.napoleon",
+    "sphinx.ext.githubpages",
+]
